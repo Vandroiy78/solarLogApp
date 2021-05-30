@@ -45,8 +45,9 @@ class SolarDataModel {
             let decoder = JSONDecoder()
             let welcome = try decoder.decode(Welcome.self, from: jsonData)
             
-            let myData = welcome.the801.the170
-            print(myData.consYieldMonth)
+            // Test the data
+            //let myData = welcome.the801.the170
+            // print(myData.consYieldMonth)
             
         }
         catch {
